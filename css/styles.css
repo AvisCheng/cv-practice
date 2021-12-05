@@ -1,0 +1,36 @@
+body{
+  background-color: #EEEBDD
+}
+
+hr{
+  /* 如果只寫一個 dotted 會適用 4 條邊框，寫兩個值，第一個會適用上下邊框、第二個會適用左右⋯⋯。 */
+  border-style: dotted none none;
+  border-top-width: 8px;
+/* 因為只要一條線，不用 4 條邊框，直接把高度設為 0  */
+  height: 0px;
+  /* 這個寫法可以，但是比較繁瑣
+  border-bottom-width:0px;
+  border-left-width: 0px;
+  border-right-width: 0px; */
+  border-color: #D8B6A4;
+  width: 5%
+}
+
+
+h1{
+  color: #630000
+  /* font: sans-serif */
+}
+h3{
+  color: #630000
+  /* font: sans-serif */
+}
+
+p {
+  font-family:"Microsoft JhengHei","微軟正黑體",serif;
+  /* font-style: italic;
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 2rem;
+  letter-spacing: 1px; */
+}
